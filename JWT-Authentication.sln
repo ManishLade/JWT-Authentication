@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT-Authentication", "JWT-Authentication\JWT-Authentication.csproj", "{18769DB0-6ECA-4C18-B568-7228DDDE2384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT-Authentication", "JWT-Authentication\JWT-Authentication.csproj", "{18769DB0-6ECA-4C18-B568-7228DDDE2384}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Claims", "Claims\Claims.csproj", "{149CF6EA-3022-4618-87DE-52883BDF5EB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Policy", "Policys\Policy.csproj", "{AA2F6D5B-0F76-4A5A-BDF0-9427D5AD6309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{18769DB0-6ECA-4C18-B568-7228DDDE2384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18769DB0-6ECA-4C18-B568-7228DDDE2384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18769DB0-6ECA-4C18-B568-7228DDDE2384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149CF6EA-3022-4618-87DE-52883BDF5EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149CF6EA-3022-4618-87DE-52883BDF5EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149CF6EA-3022-4618-87DE-52883BDF5EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149CF6EA-3022-4618-87DE-52883BDF5EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2F6D5B-0F76-4A5A-BDF0-9427D5AD6309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2F6D5B-0F76-4A5A-BDF0-9427D5AD6309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2F6D5B-0F76-4A5A-BDF0-9427D5AD6309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2F6D5B-0F76-4A5A-BDF0-9427D5AD6309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

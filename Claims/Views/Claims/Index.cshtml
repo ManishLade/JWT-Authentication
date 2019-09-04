@@ -1,0 +1,13 @@
+﻿<h1>Index</h1>
+
+
+<h3>User Claims</h3>
+<ul>
+    @foreach (var claim in User.Claims)
+    {
+        <li>@claim.Type - @claim.Value</li>
+    }
+</ul>
+<a href="@Url.Action("TwoYearRewards","Claims")">Two Years</a><br />
+<a href="@Url.Action("FiveYearRewards","Claims")">Five Years</a><br />
+<a href="@Url.Action("TenYearRewards","Claims")">Ten Years</a>
